@@ -1,0 +1,14 @@
+# Client documents stay on the local machine (this repo is public)
+report/
+
+# Local tooling
+.claude/
+.vercel/
+__pycache__/
+
+# Unused copy of the first prototype's stylesheet (the site uses assets/css/style.css)
+/style.css
+
+# OS files
+Thumbs.db
+.DS_Store

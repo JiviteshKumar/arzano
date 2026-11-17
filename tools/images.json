@@ -1,0 +1,180 @@
+{
+ "bangles": {
+  "w": 1000,
+  "h": 1000,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ },
+ "bracelet-stack": {
+  "w": 1000,
+  "h": 997,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ },
+ "cluster-hoop": {
+  "w": 963,
+  "h": 900,
+  "widths": [
+   480,
+   800,
+   963
+  ]
+ },
+ "cocktail-rings": {
+  "w": 1000,
+  "h": 900,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ },
+ "drop-necklace-bw": {
+  "w": 580,
+  "h": 860,
+  "widths": [
+   480,
+   580
+  ]
+ },
+ "emerald-earrings": {
+  "w": 1000,
+  "h": 800,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ },
+ "eternity-bands": {
+  "w": 760,
+  "h": 1000,
+  "widths": [
+   480,
+   760
+  ]
+ },
+ "everyday-rings": {
+  "w": 1000,
+  "h": 620,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ },
+ "grand-necklace": {
+  "w": 600,
+  "h": 470,
+  "widths": [
+   480,
+   600
+  ]
+ },
+ "gulf-muse": {
+  "w": 1000,
+  "h": 1000,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ },
+ "hero-drop-earring": {
+  "w": 750,
+  "h": 1000,
+  "widths": [
+   480,
+   750
+  ]
+ },
+ "melange-necklace": {
+  "w": 499,
+  "h": 569,
+  "widths": [
+   480,
+   499
+  ]
+ },
+ "melange-ribbon": {
+  "w": 480,
+  "h": 573,
+  "widths": [
+   480
+  ]
+ },
+ "necklace-double-strand": {
+  "w": 750,
+  "h": 1000,
+  "widths": [
+   480,
+   750
+  ]
+ },
+ "profile-bw": {
+  "w": 1000,
+  "h": 728,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ },
+ "rc-ana-de-armas": {
+  "w": 1000,
+  "h": 1000,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ },
+ "rc-ashley-graham": {
+  "w": 417,
+  "h": 330,
+  "widths": [
+   417
+  ]
+ },
+ "rc-emily-ratajkowski": {
+  "w": 1000,
+  "h": 1000,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ },
+ "rc-kate-beckinsale": {
+  "w": 837,
+  "h": 1000,
+  "widths": [
+   480,
+   800,
+   837
+  ]
+ },
+ "rc-kate-bosworth": {
+  "w": 551,
+  "h": 632,
+  "widths": [
+   480,
+   551
+  ]
+ },
+ "riviera-necklace": {
+  "w": 1000,
+  "h": 840,
+  "widths": [
+   480,
+   800,
+   1000
+  ]
+ }
+}

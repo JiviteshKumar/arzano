@@ -1,0 +1,56 @@
+---
+{"title": "", "description": ""}
+---
+{{> head}}
+{{> header}}
+
+  <main id="main" class="pdp-page">
+  <div class="wrap">
+    <nav class="crumbs crumbs--page" aria-label="Breadcrumb"><a href="{{root}}index.html">Arzano</a> <span aria-hidden="true">/</span> <a href="{{root}}collection.html">High Jewellery</a> <span aria-hidden="true">/</span> <a href="{{root}}collection.html?c={{col_id}}">{{col_name}}</a> <span aria-hidden="true">/</span> <span aria-current="page">{{name}}</span></nav>
+
+    <article class="pdp">
+      <div class="pdp__media">
+        <div class="zoom" data-zoom tabindex="0" aria-label="Image of {{name}}. Hover or tap to look closer.">
+          {{image}}
+        </div>
+        <p class="small pdp__hint">Hover to look closer · tap on mobile</p>
+      </div>
+
+      <div class="pdp__info">
+        <span class="eyebrow">{{col_name}}</span>
+        <h1 class="h2 pdp__name">{{name}}</h1>
+        <p class="lede">{{desc}}</p>
+        <dl class="spec">{{spec}}</dl>
+
+        <div class="pdp__actions">
+          <a class="btn btn--gold" href="{{root}}index.html?piece={{id}}#appointment">Book a private viewing <span class="arrow" aria-hidden="true">→</span></a>
+          <a class="btn" href="https://wa.me/" data-wa="{{wa_msg}}">Enquire on WhatsApp</a>
+          <button class="btn btn--ghost" type="button" data-ask="Tell me more about the {{name}}">Ask the concierge</button>
+        </div>
+
+        <ul class="assure">
+          <li><b>Certified</b>GIA report for every diamond. Check any report yourself at <a href="https://www.gia.edu/report-check-landing" rel="noopener" target="_blank">gia.edu<span class="sr"> (opens in a new tab)</span></a>.</li>
+          <li><b>Guaranteed</b>Delivered with an Arzano certificate of guarantee.</li>
+          <li><b>Private</b>Try it at home, at your hotel or at a partner salon. No obligation.</li>
+        </ul>
+      </div>
+    </article>
+
+    <section class="pdp__story" aria-labelledby="h-col">
+      <span class="eyebrow">The collection</span>
+      <h2 class="h2" id="h-col">{{col_name}}</h2>
+      <p class="lede">{{col_blurb}}</p>
+      <a class="link" href="{{root}}collection.html?c={{col_id}}">See every piece <span class="arrow" aria-hidden="true">→</span></a>
+    </section>
+
+    <section class="related" aria-labelledby="h-rel">
+      <h2 class="h3" id="h-rel">You may also love</h2>
+      <div class="grid grid--related">
+{{related}}
+      </div>
+    </section>
+  </div>
+  </main>
+
+{{> footer}}
+{{> concierge}}

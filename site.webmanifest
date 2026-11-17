@@ -1,0 +1,9 @@
+{
+  "name": "Arzano",
+  "short_name": "Arzano",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0b0b0c",
+  "theme_color": "#0b0b0c",
+  "icons": [{ "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

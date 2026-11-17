@@ -1,0 +1,59 @@
+---
+{"title": "High Jewellery Collection | Arzano",
+ "description": "Explore Arzano high jewellery: Nova Cascade necklaces, Celestial earrings, Comet precious stones, Hailey's Bridal and Mélange, all in GIA-certified diamonds.",
+ "og_image": "riviera-necklace", "preload_img": "riviera-necklace"}
+---
+{{> head}}
+{{> header}}
+
+  <main id="main">
+  <section class="page-hero">
+    <img data-pic="riviera-necklace" data-eager data-sizes="100vw" alt="">
+    <div class="page-hero__copy wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Arzano</a> <span aria-hidden="true">/</span> <span aria-current="page">High Jewellery</span></nav>
+      <span class="eyebrow">The 2026 Collection</span>
+      <h1 class="display">High <em>Jewellery</em></h1>
+      <p class="lede">Cascades, clusters and grand necklaces in pear, marquise and emerald-cut diamonds. Each piece comes with its GIA report and an Arzano certificate.</p>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <div class="wrap toolbar__in">
+      <div class="filters" role="group" aria-label="Filter by type">
+        <button class="filter is-on" data-f="all" aria-pressed="true">All</button>
+        <button class="filter" data-f="earrings" aria-pressed="false">Earrings</button>
+        <button class="filter" data-f="necklaces" aria-pressed="false">Necklaces</button>
+        <button class="filter" data-f="rings" aria-pressed="false">Rings</button>
+        <button class="filter" data-f="bracelets" aria-pressed="false">Bracelets</button>
+      </div>
+      <div class="toolbar__right">
+        <label class="sr" for="col-select">Collection</label>
+        <select id="col-select" class="col-select"><option value="">All collections</option>{{col_options}}</select>
+        <span class="count" role="status"><b id="count">{{count}}</b> pieces</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="grid" id="grid">
+{{grid}}
+    </div>
+    <p class="empty" hidden>No pieces match this combination. <button class="link" data-reset>Show all pieces</button></p>
+
+    <section class="edit-band" id="melange" aria-labelledby="h-melange">
+      <img class="reveal" data-pic="melange-necklace" data-sizes="(max-width:860px) 100vw, 45vw" alt="Fine necklace of mixed-shape diamonds worn at the collarbone">
+      <div class="reveal">
+        <span class="eyebrow">Signature Collection</span>
+        <h2 class="h2" id="h-melange">Mélange: <em>many shapes,</em> one brilliance</h2>
+        <p class="lede">Marquise, pear and brilliant-cut diamonds, gathered into one piece. Mélange is Arzano’s everyday signature. It works with any outfit and stacks beautifully.</p>
+        <div class="btn-row">
+          <a class="btn btn--gold" href="collection.html?c=melange" data-col-jump="melange">View Mélange pieces <span class="arrow" aria-hidden="true">→</span></a>
+          <a href="index.html#appointment" class="btn">Try it on privately</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  </main>
+
+{{> footer}}
+{{> concierge}}
